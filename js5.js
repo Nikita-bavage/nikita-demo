@@ -1,3 +1,5 @@
+
+//practice 8
 let newbtn=document.createElement("button");
 newbtn.innerText="clickme!";
 newbtn.style.backgroundColor="red";
@@ -34,4 +36,6 @@ console.log(paraaa);
 
 let change=paraa.setAttribute("class","nikita");
 console.log(change);
+
+//practice 9
 
