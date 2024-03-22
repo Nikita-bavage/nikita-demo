@@ -46,13 +46,13 @@ boxes.forEach((box) =>{
 });
 
 
-const disabledBox=() =>{
+const disabledBox= () =>{
     for(let box of boxes){
         box.disabled=true;
     }
 };
 
-const enableBox=() =>{
+const enableBox= () =>{
     for(let box of boxes){
         box.disabled=false;
         box.innerText="";
@@ -60,7 +60,7 @@ const enableBox=() =>{
     };
 
 
-const showWinner=(winner) =>{
+const showWinner= (winner) =>{
 msg.innerText=`congratulations!! winner is ${winner}`;
 msgcont.classList.remove("hide");
 disabledBox();
@@ -68,7 +68,7 @@ disabledBox();
 
 
 
-const checkWin=() =>{
+const checkWin= () =>{
     for( let pattern of winPattern) {
 
         let pos1=boxes[pattern[0]].innerText;
